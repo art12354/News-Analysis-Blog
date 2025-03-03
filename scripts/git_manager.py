@@ -8,7 +8,7 @@ load_dotenv()
 
 def create_branch_and_pr(filepath, topic):
     """Create a branch, commit article, push, and open a PR"""
-    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    today = datetime.datetime.now().strftime("%B-%d-%Y")
     branch_name = f"article/{today}-{topic.lower().replace(' ', '-')[:30]}"
     
     # Get the repo info from environment variables
