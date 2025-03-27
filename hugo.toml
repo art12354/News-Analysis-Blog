@@ -1,1 +1,17 @@
+baseURL = 'https://art12354.github.io/News-Analysis-Blog/'
+languageCode = 'en-us'
+title = 'News Analysis Blog'
 theme = 'ananke'
+
+[params.ananke.social.follow]
+networks = [
+  "rss"
+]
+
+[params.ananke.social.share]
+networks = [
+  "email"
+]
+
+[params.ananke.social.rss]
+profilelink = "https://art12354.github.io/News-Analysis-Blog/index.xml"
